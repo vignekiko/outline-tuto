@@ -40,6 +40,21 @@ To see if your server is running, use:
   ```bash
   curl ifconfig.me
   ```
+- Firewall inactive ဖြစ်နေရင်
+  step -1
+  ```bash
+  sudo ufw allow ssh
+  ```
+  step -2
+  ```bash
+  sudo ufw enable
+  ```
+  step -3
+  ```bash
+  sudo ufw allow <your outline port number>/tcp
+  sudo ufw allow <your outline port number>/udp
+  ```
+  
 
   
 
