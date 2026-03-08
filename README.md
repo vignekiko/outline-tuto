@@ -4,8 +4,10 @@
 # Run this command 
     sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh) --hostname <put your Reserved-IP>"
 ## Outline Server Status Check
-### Use this to check if Outline containers (specifically the shadowbox container) are active and running
+ Use this to check if Outline containers (specifically the shadowbox container) are active and running
+    ```sh
     docker ps
+    ```
 ### Use this to view detailed error logs and debug internal service issues
     docker logs shadowbox
 ## Network and Port Debugging
