@@ -27,7 +27,7 @@ To see if your server is running, use:
   ```bash
     netstat -tulpn | grep LISTEN
     ```
-- Check if the server's internal firewall (Uncomplicated Firewall) is blocking incoming connections :
+- Check firewall status :
   ```bash
     sudo ufw status
     ```
