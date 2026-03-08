@@ -8,10 +8,10 @@
 
 ### 1. Status Check
 To see if your server is running, use:
-    ```bash
-         docker ps
+   ```bash
+        docker ps
         docker logs shadowbox
-            ```
+   ```
 ### 2. Network Debug
 - If you have connection issues, run these:
    ```bash
