@@ -20,15 +20,15 @@ netstat -tulpn | grep LISTEN
 sudo ufw status
 ```
 - Verify if the server has an active outbound internet connection :
-    ```bash
+  ```bash
     ping github.com
     ```
 - Check if the required ports are actually open and listening for traffic :
-    ```bash
+  ```bash
     netstat -tulpn | grep LISTEN
     ```
 - Check if the server's internal firewall (Uncomplicated Firewall) is blocking incoming connections :
-    ```bash
+  ```bash
     sudo ufw status
     ```
 ### Troubleshooting
